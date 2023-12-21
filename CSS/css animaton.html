@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+</head>
+<style>
+    .container{
+        background-color: antiquewhite;
+        height: 80vh;
+        width: 100vw;
+    }
+    .box{
+        background-color: rgb(251, 173, 70);
+        height: 40vh;
+        width: 50vw;
+        /* animation: boxAnimation; 
+        animation-duration: 3s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-delay: 5s;
+        animation-iteration-count: 5;
+        animation-direction: reverse; */
+        /* animation-fill-mode: both;  */
+        animation: boxAnimation 3s linear 1s 5 alternate-reverse ;
+    }
+    @keyframes boxAnimation {
+        from{
+            background-color: red;
+        }
+        to{
+            transform: translateX(1000px);
+background-color: pink;
+        }
+        
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+    
+</body>
+</html>

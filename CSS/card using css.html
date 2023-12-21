@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 50px;
+            display: flex;
+        }
+
+        .card {
+            background-color: white;
+            width: 440px;
+            border-radius: 20px;
+            height: 810px;
+            margin: 4px;
+        }
+
+        .image {
+            padding: 33px;
+        }
+
+        .image img {
+            border-radius: 20px;
+            height: 223px;
+            width: 364px;
+            padding: 5px;
+        }
+
+        .content {
+            padding: 15px;
+        }
+
+        .content h1 {
+            padding-bottom: 15px;
+        }
+
+        .content p {
+            font-family: 'Poppins', sans-serif;
+            color: rgb(123, 114, 114);
+
+        }
+
+
+        .caption {
+            padding: 3px 107px 0px 16px;
+        }
+
+        .caption span {
+            border: solid rgb(40, 35, 35) 1px;
+            background-color: rgba(128, 128, 128, 0.19);
+            padding: 1px 10px;
+            border-radius: 50px;
+        }
+
+        .button {
+            text-align: center;
+
+        }
+
+        .button button {
+            font-size: LARGE;
+            margin: 10px;
+            padding: 8px 13px;
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:rgb(19, 132, 402);
+            background-color: rgb(164, 207, 235);
+            cursor: pointer;
+        }
+        .button button:hover{
+            color: rgb(19, 132, 402);
+            background-color: rgb(75, 155, 225);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img src="luffy.jpg" alt="">
+        </div>
+
+        <div class="caption">
+            <span>Anime</span>
+            <span>Luffy</span>
+        </div>
+
+        <div class="content">
+            <h1><b>One Piece</b></h1>
+
+            <p><b>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized
+                    in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters
+                    compiled into 104 tankōbon volumes as of November 2022. The story follows the adventures of Monkey
+                    D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil
+                    Fruit. With his pirate crew, the Straw Hat Pirates, Luffy explores the Grand Line in search of the
+                    deceased King of the Pirates Gol D. Roger's ultimate treasure known as the "One Piece" in order to
+                    become the next King of the Pirates.</b></p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
